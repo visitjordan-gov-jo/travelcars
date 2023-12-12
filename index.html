@@ -356,6 +356,9 @@ return true;
                                             <input type="image" name="ImageButton1" id="ImageButton1" src="../filestravelcars/images/refresh.png" style="border-width:0px;">
 
                                             <input name="txtCaptcha" type="text" maxlength="10" id="txtCaptcha" class="form-control" placeholder="أدخل الرقم الظاهر على الصورة" style="width:250px;">
+					
+
+					
                                             <span id="RequiredFieldValidator11" class="alertFont" style="color:Red;display:none;">*</span>
 
 
@@ -408,12 +411,15 @@ return true;
                 </div>
             </div>
         </footer>
+
+
+	
         <!-- END FOOTER PART -->
 
 
 
         <script type="text/javascript">
-
+		document.getElementById("ImageButton1").click();
             function CustomValidatorJordanEntOrExt_ClientValidate(source, args) {
                 if (document.getElementById("rbEntJor").checked || document.getElementById("rbExtJor").checked) {
                     args.IsValid = true;
