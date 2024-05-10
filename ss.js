@@ -1,1 +1,1 @@
-document.getElementById('txtName').value = 'seiffff';
+document.getElementById('txtName').value = 'seif';
